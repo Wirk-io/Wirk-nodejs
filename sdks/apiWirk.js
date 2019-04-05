@@ -216,20 +216,12 @@ ApiWirk.prototype.getAppProjectId = function(Id, config, callback) {
  *  - body of the response auto-extracted from the response if the status is in the 2xx range.
  *    - Status code : 200 - Payload :
 {
-  "AppName" : "sample AppName",
-  "AppProjectState" : 1.1,
-  "CreationDate" : null,
-  "Credit" : 1.1,
   "IdApp" : 1.1,
-  "IdAppProject" : 1.1,
   "IdQuality" : 1.1,
   "Instruction" : "sample Instruction",
-  "NbTaskClosed" : 1.1,
-  "NbTotalTask" : 1.1,
-  "QualityName" : "sample QualityName",
   "QuestionOptions" : [ "sample QuestionOptions" ],
   "Title" : "sample Title",
-  "UrlNotification" : { }
+  "UrlNotification" : "sample UrlNotification"
 }
  *  - response the technical (low-level) node response (c.f. https://nodejs.org/api/http.html#http_http_incomingmessage)
  */
@@ -300,13 +292,7 @@ ApiWirk.prototype.getTaskLineId = function(Id, config, callback) {
  *    - Status code : 200 - Payload :
 {
   "IdAppProject" : 1.1,
-  "IdTaskLine" : 1.1,
-  "Inputs" : [ "sample Inputs" ],
-  "Tasks" : {
-    "IdTask" : 1.1,
-    "Outputs" : { },
-    "UpdateDate" : null
-  }
+  "Inputs" : [ "sample Inputs" ]
 }
  *  - response the technical (low-level) node response (c.f. https://nodejs.org/api/http.html#http_http_incomingmessage)
  */
