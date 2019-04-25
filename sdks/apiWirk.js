@@ -172,7 +172,7 @@ ApiWirk.prototype.getAppId = function(Id, config, callback) {
  *    - Status code : 200 - Payload :
 {
   "AppName" : "sample AppName",
-  "AppProjectState" : 1.1,
+  "AppProjectState" : "sample AppProjectState",
   "CreationDate" : null,
   "Credit" : 1.1,
   "IdApp" : 1.1,
